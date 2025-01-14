@@ -116,7 +116,6 @@ def delete_menu_item(
                 detail="You are not authorized to perform this action"
             )
     except HTTPException as e:
-        print("nhi dung")
         raise e  
 
     db_item = db.query(models.MenuItem).filter(models.MenuItem.id == menu_id).first()
