@@ -1,0 +1,6 @@
+__pycache__
+fastapi-env
+database.py
+.env
+__init__.py
+.food.db
